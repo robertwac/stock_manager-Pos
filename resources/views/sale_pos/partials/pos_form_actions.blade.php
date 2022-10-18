@@ -56,6 +56,7 @@
 			<span class="text">@lang('sale.total_payable')</span>
 			<input type="hidden" name="final_total" 
 										id="final_total_input" value=0>
+										{{-- payable --}}
 			<span id="total_payable" class="number">0</span>
 			</div>
 			@endif

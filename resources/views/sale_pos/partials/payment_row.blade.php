@@ -3,7 +3,8 @@
 		@if($removable)
 			<div class="box-header">
               <div class="box-tools pull-right">
-                <button type="button" class="btn btn-box-tool remove_payment_row"><i class="fa fa-times fa-2x"></i></button>
+                <button type="button" class="btn btn-box-tool remove_payment_row">
+					<i class="fa fa-times fa-2x"></i></button>
               </div>
             </div>
         @endif

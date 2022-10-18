@@ -19,7 +19,9 @@ Route::middleware(['setData'])->group(function () {
     });
 
     Auth::routes();
+//mpesa
 
+Route::get('/getMpesaDetails', 'MpesaController@getMpesaDetails')->name('getMpesaDetails');
     Route::get('/business/register', 'BusinessController@getRegister')->name('business.getRegister');
     Route::post('/business/register', 'BusinessController@postRegister')->name('business.postRegister');
     Route::post('/business/register/check-username', 'BusinessController@postCheckUsername')->name('business.postCheckUsername');
